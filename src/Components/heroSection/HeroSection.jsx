@@ -72,6 +72,7 @@ const handleScrollLeft = () => {
 
     </div>
 
+
     <div className={HeaderStyle.bannercontent}>
     <div className={HeaderStyle.slider}>
 

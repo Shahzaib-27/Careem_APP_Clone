@@ -78,38 +78,116 @@
     /* margin-right: 20px; */
 }
 
+.thirdcon{
+    display: none;
+}
+
 
 @media (max-width: 480px) {
-    .container1 h1{
-        font-size: 0.9rem;
+
+    .body{
+        margin-bottom: 190px;
     }
 
-    .secondcontainer button{
-        font-size: 0.9rem;
 
+    .container1 {
+        
+        display: none;
+    }
+
+    .container img{
+        margin-right: 160px;
+        font-size: 10px;
+        margin-left: 30px;
+    }
+
+    .secondcontainer{
+         display: none;
+    }
+    
+
+    .secondcontainer button{
+        font-size: 1rem;
         padding: 10px 24px;
+
     }
 
     .secondcontainer select{
-        width: 90px;
+        width: 20px;
+    }
+
+    .thirdcon {
+        display: flex;
+        position: relative;
+        right: 170px ;
+        bottom: 10px ;
+        top: 0.9px;
+
+    }
+
+    .thirdcon button{
+        border: none;
+
+        width: 150px;
+
+        background-color: rgb(19, 233, 19);
+        color: rgb(0, 0, 0);
+
+        border-radius: 10px;
+
+        margin-right: 5px;
+    }
+
+    .thirdcon i{
+        position: relative;
+        top: 8px;
+
+        color: rgb(19, 233, 19);
+
+        font-size: 1.3rem;
     }
 }
 
 
 @media (max-width: 768px) {
+
+    .body{
+        margin-bottom: 90px;
+    }
+
     .container{
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
         gap: 15px;
+
     }
 
     .container1{
+
         flex-wrap: wrap;
         justify-content: center;
         gap: 15px;
     }
 
+    .container1 h1{
+        font-size: 15px;
+    }
+
     .secondcontainer1{
         justify-content: center;
+    }
+
+    .secondcontainer button{
+        width: 90px;
+        height: 50px;
+        font-size: 15px;
+        
+        padding: 1px;
+    }
+
+    .secondcontainer select{
+        width: 90px;
+        font-size: 15px;
     }
 }
 

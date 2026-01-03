@@ -28,6 +28,11 @@ return (
                 </div>
             </div>
 
+            <div className={Navstyle.thirdcon}>
+                <button>Download the App</button>
+                <i className="fa-solid fa-bars"></i>
+            </div>
+
         </div>    
     </div>
 
