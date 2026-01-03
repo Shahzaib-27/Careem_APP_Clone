@@ -50,6 +50,10 @@
 
 /* ================= SECTION 2 ================= */
 .body {
+    width: 100%;
+
+    max-width: 1200px;
+
     background-color: rgb(136, 248, 196);
     margin-top: 250px;
 }
@@ -93,6 +97,7 @@
 }
 
 .thirdContainer_img1 img {
+    width: 200px;
     border-radius: 20px;
 }
 

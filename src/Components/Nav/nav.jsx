@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Navstyle from "./Nav.module.css"
 
 export default function nav() { 
