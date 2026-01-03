@@ -14,7 +14,7 @@ This project focuses on clean UI design, reusable components, and mobile-first r
 - 🧱 Clean and reusable component structure
 - ✨ Smooth hover effects and transitions
 
----asdadad
+---
 
 ## 🛠️ Tech Stack
 
