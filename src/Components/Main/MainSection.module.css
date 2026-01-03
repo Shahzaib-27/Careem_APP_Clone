@@ -1,0 +1,292 @@
+
+/* ================= SECTION 1 ================= */
+.FirstContainer {
+    max-width: 1200px;
+
+    margin: 250px auto 120px auto;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.SecondContainer {
+    padding: 40px;
+
+    font-size: 1.3rem;
+}
+
+.SecondContainer p {
+    margin-top: 20px;
+
+    font-size: 1.1rem;
+}
+
+.SecondContainer button {
+    margin-top: 25px;
+    padding: 12px 20px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: rgb(0, 255, 0);
+    cursor: pointer;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.SecondContainer button:hover {
+    transform: translateY(-5px);
+}
+
+.thirdContainer_img {
+    border-radius: 20px;
+}
+
+.thirdContainer_img img {
+    border-radius: 20px;
+}
+
+/* ================= SECTION 2 ================= */
+.body {
+    background-color: rgb(136, 248, 196);
+    margin-top: 250px;
+}
+
+.FirstContainer1 {
+    max-width: 1200px;
+
+    margin: auto;
+    padding: 80px;
+
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.SecondContainer1 {
+    font-size: 1.3rem;
+}
+
+.SecondContainer1 p {
+    margin-top: 20px;
+
+    letter-spacing: 1px;
+}
+
+.SecondContainer1 button {
+    margin-top: 25px;
+    padding: 12px 20px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: white;
+    cursor: pointer;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.SecondContainer1 button:hover {
+    transform: translateY(-5px);
+}
+
+.thirdContainer_img1 img {
+    border-radius: 20px;
+}
+
+/* ================= SECTION 3 ================= */
+.FirstContainer2 {
+    max-width: 1200px;
+    margin: 250px auto 120px auto;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.SecondContainer2 {
+    padding: 40px;
+    font-size: 1.3rem;
+}
+
+.SecondContainer2 h1 {
+    margin-bottom: 15px;
+}
+
+.SecondContainer2 p {
+    letter-spacing: 1px;
+}
+
+.SecondContainer2 button {
+    margin-top: 25px;
+    padding: 12px 20px;
+
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 255, 0);
+    cursor: pointer;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.SecondContainer2 button:hover {
+    transform: translateY(-5px);
+}
+
+.thirdContainer_img2 img {
+    border-radius: 20px;
+}
+
+/* ================= SECTION 4 ================= */
+.FirstContainer3 {
+    max-width: 1200px;
+    margin: 120px auto;
+    padding: 80px;
+
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.SecondContainer3 {
+    font-size: 1.3rem;
+}
+
+.SecondContainer3 p {
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.SecondContainer3 button {
+    margin-top: 25px;
+    padding: 12px 20px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: rgb(0, 255, 0);
+    cursor: pointer;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.SecondContainer3 button:hover {
+    transform: translateY(-5px);
+}
+
+.thirdContainer_img3 img {
+    border-radius: 20px;
+}
+
+/* ================= SECTION 5 ================= */
+.inlinecon {
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    gap: 40px;
+    padding-bottom: 120px;
+}
+
+.FirstContainer4 {
+    flex: 1;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.SecondContainer4 {
+    margin-top: 20px;
+
+    font-size: 1.1rem;
+}
+
+.SecondContainer4 h1 {
+    font-size: 1.6rem;
+
+    margin-bottom: 15px;
+}
+
+.SecondContainer4 p {
+    letter-spacing: 1px;
+}
+
+.SecondContainer4 button {
+    margin-top: 20px;
+    padding: 10px 18px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: rgb(0, 255, 0);
+    cursor: pointer;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.SecondContainer4 button:hover {
+    transform: translateY(-5px);
+}
+
+.thirdContainer_img4 img {
+    width: 99%;
+    border-radius: 20px;
+}
+
+@media (max-width: 480px) {
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px 14px;
+    }
+
+    .SecondContainer p,
+    .SecondContainer1 p,
+    .SecondContainer2 p,
+    .SecondContainer3 p {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .FirstContainer,
+    .FirstContainer1,
+    .FirstContainer2,
+    .FirstContainer3 {
+        margin-top: 120px;
+        padding: 20px;
+    }
+
+    .SecondContainer,
+    .SecondContainer1,
+    .SecondContainer2,
+    .SecondContainer3 {
+        font-size: 1.1rem;
+    }
+
+    .SecondContainer4 h1 {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .FirstContainer,
+    .FirstContainer1,
+    .FirstContainer2,
+    .FirstContainer3 {
+        flex-direction: column;
+        text-align: center;
+
+        gap: 40px;
+        margin-top: 180px;
+    }
+
+    .inlinecon {
+        flex-direction: column;
+        align-items: center;
+    }
+}

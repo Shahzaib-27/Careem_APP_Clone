@@ -1,0 +1,280 @@
+/* ================= VIDEO SECTION ================= */
+
+.video_container {
+  margin: 20px;
+  margin-top: 90px;
+  
+  overflow: hidden;
+}
+
+.video_container video {
+  width: 100%;
+  height: 80vh;
+
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+/* ================= CARD SECTION ================= */
+
+.contentcontainer {
+ margin-top: 90px;
+
+ display: grid;
+
+ grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
+
+ justify-content: center;
+
+}
+
+/* COMMON CARD STYLES */
+
+.boxcon,
+.boxcon1,
+.boxcon2,
+.boxcon3 {
+  width: 90%;
+
+  max-width: 350px;
+  min-height: 430px;
+
+  margin: 10px;
+  padding: 10px;
+
+  border-radius: 15px;
+  font-size: 1.2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+/* ---------- BOX 1 ---------- */
+.boxcon {
+  background-color: rgb(89, 0, 255);
+  color: white;
+}
+
+.boxcon h1 {
+  font-size: 2.6rem;
+}
+
+.boxcon h3 {
+  font-size: 1.5rem;
+}
+
+/* ---------- BOX 2 ---------- */
+.boxcon1 {
+  background-color: rgb(195, 235, 208);
+  color: rgb(12, 82, 3);
+}
+
+.boxcon1 h1 {
+  font-size: 2.7rem;
+}
+
+.boxcon1 h3 {
+  font-size: 1.8rem;
+}
+
+/* ---------- BOX 3 ---------- */
+.boxcon2 {
+  background-color: rgb(163, 117, 236);
+  color: white;
+}
+
+.boxcon2 h1 {
+  font-size: 2.3rem;
+}
+
+.boxcon2 h3 {
+  font-size: 1.4rem;
+}
+
+/* ---------- BOX 4 ---------- */
+.boxcon3 {
+  background-color: rgb(2, 15, 90);
+  color: white;
+}
+
+.boxcon3 h1 {
+  font-size: 2.7rem;
+}
+
+.boxcon3 h3 {
+  font-size: 1.4rem;
+}
+
+/* ---------- TEXT SPACING ---------- */
+.box h1,
+.box1 h1,
+.box2 h1,
+.box3 h1 {
+  margin: 0;
+}
+
+.box h3,
+.box1 h3,
+.box2 h3,
+.box3 h3 {
+  margin: 8px 0;
+}
+
+/* ---------- ARROW ICON ---------- */
+.boxcon i,
+.boxcon1 i,
+.boxcon2 i,
+.boxcon3 i {
+  font-size: 2.2rem;
+
+  margin-right: 10px;
+  align-self: flex-end;
+
+  cursor: pointer;
+}
+
+/* ================= SLIDER SECTION ================= */
+
+.bannercontent {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.slider {
+  width: 100%;
+  max-width: 1300px;
+
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+}
+
+/* TRACK */
+.track {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.track::-webkit-scrollbar {
+  display: none;
+}
+
+.track img {
+  width: 100%;
+  max-width: 1260px;
+
+  border-radius: 40px;
+  transition: 0.4s ease;
+}
+
+.arrowLeft,
+.arrowRight {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  background-color: rgba(0, 0, 0, 0.568);
+  color: white;
+
+  border: none;
+  border-radius: 50px;
+
+  height: 76px;
+  width: 56px;
+
+  cursor: pointer;
+
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.arrowLeft {
+  left: 10px;
+}
+
+.arrowRight {
+  right: 30px;
+}
+
+.arrowLeft i,
+.arrowRight i {
+  font-size: 26px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 1024px) {
+  .video_container video {
+    height: 60vh;
+  }
+
+  .boxcon,
+  .boxcon1,
+  .boxcon2,
+  .boxcon3 {
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  .video_container video {
+    height: 50vh;
+    border-radius: 20px;
+  }
+
+  .contentcontainer {
+    margin-top: 40px;
+  }
+
+  .boxcon,
+  .boxcon1,
+  .boxcon2,
+  .boxcon3 {
+    max-width: 99%;
+    min-height: auto;
+  }
+
+  .boxcon h1,
+  .boxcon1 h1,
+  .boxcon2 h1,
+  .boxcon3 h1 {
+    font-size: 2rem;
+  }
+
+  .track img {
+    border-radius: 20px;
+  }
+
+  .arrowLeft,
+  .arrowRight {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .video_container {
+    margin: 10px;
+    margin-top: 70px;
+  }
+
+  .boxcon,
+  .boxcon1,
+  .boxcon2,
+  .boxcon3 {
+    padding: 15px;
+  }
+
+  .boxcon i,
+  .boxcon1 i,
+  .boxcon2 i,
+  .boxcon3 i {
+    font-size: 2rem;
+  }
+}

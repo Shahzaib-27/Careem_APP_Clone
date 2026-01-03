@@ -1,0 +1,16 @@
+import React from 'react'
+import { BrowserRouter , Routes , Route } from "react-router-dom"
+
+import NavLayout from "./Components/Layout/Layout.jsx"
+
+export default function App() {
+return (
+  <>
+   <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<NavLayout/>} />  
+    </Routes>
+   </BrowserRouter>
+  </>
+)
+}
