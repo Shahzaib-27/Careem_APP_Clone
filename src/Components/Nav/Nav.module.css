@@ -99,7 +99,7 @@
         /* margin-left: 5px; */
     }
 
-    .secondcontainer{
+    .secondcontainer ,.secondcontainer1 { 
          display: none;
     }
     
