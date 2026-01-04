@@ -89,7 +89,7 @@
         margin-bottom: 190px;
     }
 
-    .container1 {
+    .container1 ,.secondcontainer ,.secondcontainer1 {
         display: none;
     }
 
@@ -99,10 +99,7 @@
         /* margin-left: 5px; */
     }
 
-    .secondcontainer ,.secondcontainer1 { 
-         display: none;
-    }
-    
+
     .thirdcon {
         display: flex;
         position: relative;
@@ -141,6 +138,10 @@
 
 
 @media (max-width: 768px) {
+
+     .container1 ,.secondcontainer ,.secondcontainer1 {
+        display: none;
+    }
 
     .body{
         margin-bottom: 90px;
