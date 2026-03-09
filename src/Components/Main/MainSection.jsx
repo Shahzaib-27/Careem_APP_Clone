@@ -8,7 +8,7 @@ export default function MainSection() {
       {/* SECTION 1 */}
       <div className={MainSectionStyle.FirstContainer}>
         <div className={MainSectionStyle.SecondContainer}>
-          <h1>About Us</h1>
+          <h1 className='font-bold'>About Us</h1>
           <p>
             Careem's purpose is to simplify and improve the lives of people <br />
             and build an awesome organisation that inspires. <br />
@@ -31,7 +31,7 @@ export default function MainSection() {
           </div>
 
           <div className={MainSectionStyle.SecondContainer1}>
-            <h1>Captains</h1>
+            <h1 className='font-bold'>Captains</h1>
             <p>
               Drive or deliver with Careem and earn with every ride. Choose 
               your own hours, enjoy amazing Captain rewards and get
@@ -46,7 +46,7 @@ export default function MainSection() {
     {/* section 3 */}
      <div className={MainSectionStyle.FirstContainer2}>
         <div className={MainSectionStyle.SecondContainer2}>
-          <h1>Engineering at Careem</h1>
+          <h1 className='font-bold'>Engineering at Careem</h1>
           <p>
             Careem is creating cutting-edge technology every day across <br />
             five tech sites in Europe and the MENAP region, in a mission <br />
@@ -68,7 +68,7 @@ export default function MainSection() {
         </div>
 
         <div className={MainSectionStyle.SecondContainer3}>
-          <h1>Our social impact</h1>
+          <h1 className='font-bold'>Our social impact</h1>
           <p>
             We believe deeply in driving social and economic progress across <br />
             the region. We use our app to connect customers to the <br />
@@ -84,59 +84,60 @@ export default function MainSection() {
        <div className={MainSectionStyle.body}>
         {/* 1 */}
 
-<div className={MainSectionStyle.inlinecon}>
+          <div className={MainSectionStyle.inlinecon}>
 
-        <div className={MainSectionStyle.FirstContainer4}>
-        <div className={MainSectionStyle.thirdContainer_img4}>
-          <img src="/MainSectionImages/creimg5.png" alt="banner" />
-        </div>
+                  <div className={MainSectionStyle.FirstContainer4}>
+                  <div className={MainSectionStyle.thirdContainer_img4}>
+                    <img src="/MainSectionImages/creimg5.png" alt="banner" />
+                  </div>
 
-        <div className={MainSectionStyle.SecondContainer4}>
-          <h1>Valentina's Day, made easy with cream</h1>
-          <p>
-           Valentine's Day should be about love, not last-minute stress. Whether <br />
-           you need a romantic dinner, flowers, or a thoughtful gift, <br />
-           Careem's curated Valentine's Day offers have you covered. <br />
-          </p>
-          <button>Read More</button>
-        </div>
-      </div>
+                  <div className={MainSectionStyle.SecondContainer4}>
+                    <h1 className='font-bold'>Valentina's Day, made easy with cream</h1>
+                    <p>
+                    Valentine's Day should be about love, not last-minute stress. Whether <br />
+                    you need a romantic dinner, flowers, or a thoughtful gift, <br />
+                    Careem's curated Valentine's Day offers have you covered. <br />
+                    </p>
+                    <button>Read More</button>
+                  </div>
+                </div>
 
-        {/* 2 */}
-       <div className={MainSectionStyle.FirstContainer4}>
-        <div className={MainSectionStyle.thirdContainer_img4}>
-          <img src="/MainSectionImages/creimg6.png" alt="banner" />
-        </div>
+                  {/* 2 */}
+                <div className={MainSectionStyle.FirstContainer4}>
+                  <div className={MainSectionStyle.thirdContainer_img4}>
+                    <img src="/MainSectionImages/creimg6.png" alt="banner" />
+                  </div>
 
-        <div className={MainSectionStyle.SecondContainer4}>
-          <h1>Zero fees & member-only FX rates</h1>
-          <p>
-              We're super excited to introduce zero fees on international remittance as <br />
-              well as FX ratecheaper than Google for first-time senders to India or <br />
-              Pakistan - exclusive to Careem Plus members <br />
-          </p>
-          <button>Read More</button>
-        </div>
-      </div>
+                  <div className={MainSectionStyle.SecondContainer4}>
+                    <h1 className='font-bold'>Zero fees & member-only FX rates</h1>
+                    <p>
+                        We're super excited to introduce zero fees on international remittance as <br />
+                        well as FX ratecheaper than Google for first-time senders to India or <br />
+                        Pakistan - exclusive to Careem Plus members <br />
+                    </p>
+                    <button>Read More</button>
+                  </div>
+                </div>
 
-        {/* 3 */}
-       <div className={MainSectionStyle.FirstContainer4}>
-        <div className={MainSectionStyle.thirdContainer_img4}>
-          <img src="/MainSectionImages/creimg7.png" alt="banner" />
-        </div>
+                  {/* 3 */}
+                <div className={MainSectionStyle.FirstContainer4}>
+                  <div className={MainSectionStyle.thirdContainer_img4}>
+                    <img src="/MainSectionImages/creimg7.png" alt="banner" />
+                  </div>
 
-        <div className={MainSectionStyle.SecondContainer4}>
-          <h1>Our social impact</h1>
-          <p>
-            We believe deeply in driving social and economic progress across <br />
-            the region. We use our app to connect customers to the <br />
-            communities that need the most support.
-          </p>
-          <button>Read More</button>
-        </div>
-      </div>
+                  <div className={MainSectionStyle.SecondContainer4}>
+                    <h1 className='font-bold'>Our social impact</h1>
+                    <p>
+                      We believe deeply in driving social and economic progress across <br />
+                      the region. We use our app to connect customers to the <br />
+                      communities that need the most support.
+                    </p>
+                    <button>Read More</button>
+                  </div>
+                </div>
 
-</div>
+          </div>
+          
        </div>
 
     </>

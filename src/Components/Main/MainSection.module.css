@@ -3,16 +3,16 @@
 .FirstContainer {
     max-width: 1200px;
 
-    margin: 250px auto 120px auto;
-    padding: 20px;
+    margin: 190px auto 100px auto;
+    padding: 10px;
 
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 10px;
 }
 
 .SecondContainer {
-    padding: 40px;
+    padding: 20px;
 
     font-size: 1.3rem;
 }
@@ -24,8 +24,8 @@
 }
 
 .SecondContainer button {
-    margin-top: 25px;
-    padding: 12px 20px;
+    margin-top: 20px;
+    padding: 10px 10px;
 
     border: none;
     border-radius: 10px;
@@ -33,11 +33,11 @@
     background-color: rgb(0, 255, 0);
     cursor: pointer;
 
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .SecondContainer button:hover {
-    transform: translateY(-5px);
+    transform: scale(1.1);
 }
 
 .thirdContainer_img {
@@ -192,18 +192,18 @@
     margin: auto;
 
     display: flex;
-    gap: 40px;
-    padding-bottom: 120px;
+    gap: 20px;
+    padding-bottom: 100px;
 }
 
 .FirstContainer4 {
     flex: 1;
-    padding: 40px;
-    margin-top: 50px;
+    padding: 20px;
+    margin-top: 5px;
 }
 
 .SecondContainer4 {
-    margin-top: 20px;
+    margin-top: 10px;
 
     font-size: 1.1rem;
 }
