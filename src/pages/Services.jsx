@@ -9,7 +9,7 @@ export default function Services() {
   return (
     <>
     <NavBar/>
-      <div className='mt-[-70px] min-h-screen '>
+      <div className='min-h-screen '>
          <div className=''>
           <div className={MainSectionStyle.body}>
           {/* 1 */}
